@@ -4,6 +4,6 @@ counter = 0
     if move != " "
       counter += 1
     end
-    return counter
   end
+  return counter
 end
