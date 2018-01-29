@@ -16,6 +16,6 @@ def current_player(board)
   #else
     #return "O"
   #end
-
-  number_of_turns = (turn_count(board) % 2) ? "X": "O"
+  player = (turn_count(board) % 2) ? "X": "O"
+  return player
 end
