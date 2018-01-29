@@ -16,6 +16,6 @@ def current_player(board)
   #else
     #return "O"
   #end
-  number_of_turns = 0 ? "X" : "O"
+  number_of_turns == 0 ? "X" : "O"
 
 end
